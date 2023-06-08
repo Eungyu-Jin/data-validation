@@ -1,0 +1,86 @@
+{
+    "field": null,
+    "ftype": null,
+    "n_null": {
+        "workclass": 0.00015351550506601167
+    },
+    "num_stat": {
+        "distance": {
+            "fnlwgt": 0.03105740516131944
+        },
+        "skew": {
+            "capital-gain": 0.6794287652835553
+        },
+        "kurtosis": {
+            "fnlwgt": 1.5681320315628593,
+            "capital-gain": 20.365425164127487,
+            "capital-loss": 1.1484169540621636
+        }
+    },
+    "cat_stat": {
+        "distance": {
+            "relationship": 0.014279370118716134,
+            "occupation": 0.011933732410781842
+        },
+        "lbs": {
+            "relationship": {
+                "nan": 1
+            },
+            "label": {
+                "Bachelors": 1
+            },
+            "sex": {
+                "Married-civ-spouse": 1
+            },
+            "race": {
+                "Plumber": 1
+            },
+            "workclass": {
+                "Husband": 1
+            },
+            "marital-status": {
+                "Other": 1
+            },
+            "native-country": {
+                "Male": 1
+            },
+            "education": {
+                "Australia": 1
+            },
+            "occupation": {
+                ">50K": 1
+            }
+        },
+        "cnt": {
+            "relationship": {
+                " Not-in-family": 0.23623102113724323,
+                " Own-child": 0.2495069033530572,
+                " Husband": 0.2567155648694989,
+                " Wife": 0.24247226624405704,
+                " Unmarried": 0.25263540530716105,
+                " Other-relative": 0.2857142857142857
+            },
+            "occupation": {
+                " Prof-specialty": 0.24586217273548,
+                " Priv-house-serv": 0.20161290322580644,
+                " Other-service": 0.2387218045112782,
+                " Machine-op-inspct": 0.2543859649122807,
+                " Exec-managerial": 0.26627218934911245,
+                " Sales": 0.24573378839590443,
+                " Transport-moving": 0.24570982839313574,
+                " Armed-Forces": 0.125,
+                " Tech-support": 0.26430517711171664,
+                " Farming-fishing": 0.24561403508771928,
+                " Handlers-cleaners": 0.2985781990521327,
+                " Craft-repair": 0.2577477753912243,
+                " Adm-clerical": 0.22482131254061077,
+                " Protective-serv": 0.2361904761904762,
+                " ?": 0.25802047781569964
+            }
+        }
+    },
+    "datetime": {
+        "freq": {},
+        "cycle": {}
+    }
+}
