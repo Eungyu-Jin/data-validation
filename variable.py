@@ -773,7 +773,7 @@ class Tensor(Variable):
             ca, cd = pywt.dwt(self.data[:,i], wavelet=wavelet) # ca는 approximate로 저주파, cd는 detail로 고주파
             cat = pywt.threshold(ca, scale*np.std(ca), mode="soft") # 가운데 임계치 값을 조정해서 분석
             cdt = pywt.threshold(cd, scale*np.std(cd), mode="soft") # 가운데 임계치 값을 조정해서 분석
-            ts.append(pywt.idwt(cat, cdt, wavelet))
+            ts.append(pywt.idwt(cat, cdt, wavelet)[:-1])
 
         ts = np.stack(ts,axis=1)
 

@@ -5,7 +5,7 @@ from collections import namedtuple, defaultdict
 from typing import NamedTuple
 from heapq import heappush, heappop
 
-from variable import Variable, Tensor,Generator
+from modules.variable import Variable, Tensor,Generator
 
 import json
 class NumpyEncoder(json.JSONEncoder):
